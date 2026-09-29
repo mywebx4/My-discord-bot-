@@ -1,0 +1,15 @@
+{
+  "name": "discord-multitool-bot",
+  "version": "1.0.0",
+  "description": "Discord server directory, Curseforge lookup, and AI chat bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.1.1",
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}
